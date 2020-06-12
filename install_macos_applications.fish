@@ -153,7 +153,7 @@ echo ".Trashes" >> ~/.gitignore_global
 echo "*.pyc" >> ~/.gitignore_global
 echo ".git" >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
-git config --global user.name "arthurmeltonyan"
+git config --global user.email arthur.meltonyan@gmail.com
 
 
 brew install rustup
