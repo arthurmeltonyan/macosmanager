@@ -57,8 +57,6 @@ brew cask install cleanmymac
 open "/Applications/cleanmymac x.app"
 
 
-brew cask install fontbase
-open "/Applications/fontbase.app"
 brew cask install figma
 open "/Applications/figma.app"
 
@@ -80,6 +78,10 @@ brew cask install mactex-no-gui
 
 brew cask install iterm2
 open "/Applications/iterm.app"
+
+
+brew cask install grammarly
+open "/Applications/grammarly.app"
 
 
 brew cask install osxfuse
