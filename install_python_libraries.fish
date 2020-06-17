@@ -10,12 +10,6 @@ mkdir datascience
 
 
 cd ~/Documents/datascience
-mkdir books
-cd books
-git clone https://github.com/ageron/handson-ml2 handson_machine_learning
-
-
-cd ~/Documents/datascience
 poetry new youtubemusiccharts
 cd youtubemusiccharts
 
