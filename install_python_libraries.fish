@@ -202,8 +202,10 @@ cd naturallanguageprocessing
 poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add torch torchtext fastai tensorflow keras thinc 
-sentence-transformers transformers spacy-transformers
-poetry add textacy spacy spacy-stanza spacy_cld textpipe sense2vec dframcy stanza
+poetry add textacy spacy spacy_cld textpipe sense2vec allennlp spacy-stanza stanza 
+poetry add blackstone qas chatterbot alibi spacymoji ludwig mlflow 
+poetry add spacy-transformers transformers sentence-transformers
+poetry add neuralcoref nlp-architect
 poetry add wordcloud pyldavis lda2vec nltk polyglot flair textblob pattern spark-nlp gensim fasttext
 poetry add deeppavlov natasha slovnet razdel navec ipymarkup pymorphy2-dicts pymorphy2
 poetry add jupyterlab ipywidgets tqdm
