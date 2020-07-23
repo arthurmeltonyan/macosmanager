@@ -80,7 +80,7 @@ poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add streamlit fastapi uvicorn
 poetry add dephell -E complete
-poetry add sqlalchemy peewee
+poetry add sqlalchemy peewee pony
 poetry add pytest pyinstrument
 poetry add jupyterlab ipywidgets tqdm
 
