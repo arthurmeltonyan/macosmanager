@@ -45,6 +45,8 @@ brew cask install google-chrome
 open "/Applications/google chrome.app"
 brew cask install transmission
 open "/Applications/transmission.app"
+
+
 brew cask install discord
 open "/Applications/discord.app"
 brew cask install zoomus
