@@ -61,14 +61,16 @@ brew cask install figma
 open "/Applications/figma.app"
 
 
-# brew cask install paw
-# open "/Applications/paw.app"
-# brew cask install tableplus
-# open "/Applications/tableplus.app"
+brew cask install paw
+open "/Applications/paw.app"
+brew cask install tableplus
+open "/Applications/tableplus.app"
 
 
 brew cask install iina
 open "/Applications/iina.app"
+brew cask install spotify
+open "/Applications/spotify.app"
 
 
 brew cask install texpad
