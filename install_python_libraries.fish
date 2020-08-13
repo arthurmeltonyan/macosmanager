@@ -20,7 +20,7 @@ cd ~/Documents/datascience
 poetry new applemusiccharts
 cd applemusiccharts
 
-poetry add pendulum pandas https lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
