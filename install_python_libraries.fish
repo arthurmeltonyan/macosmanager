@@ -20,42 +20,42 @@ cd ~/Documents/datascience
 poetry new applemusiccharts
 cd applemusiccharts
 
-poetry add pendulum pandas requests lxml tqdm fastapi uvicorn
+poetry add pendulum pandas https lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new deezercharts
 cd deezercharts
 
-poetry add pendulum pandas requests lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new spotifycharts
 cd spotifycharts
 
-poetry add pathos pendulum pandas requests lxml tqdm fastapi uvicorn
+poetry add pathos pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new billboardcharts
 cd billboardcharts
 
-poetry add pendulum pandas requests lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new shazamcharts
 cd shazamcharts
 
-poetry add pendulum pandas requests lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new geniuscharts
 cd geniuscharts
 
-poetry add pendulum pandas requests lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
