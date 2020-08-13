@@ -111,7 +111,7 @@ cd parsers
 poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add lxml bs4 scrapy
-poetry add requests httpx aiohttp wget fake_useragent stem pysocks
+poetry add httpx aiohttp wget fake_useragent stem pysocks
 poetry add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter
 poetry add jupyterlab ipywidgets tqdm
 
