@@ -94,7 +94,7 @@ cd socialnetworks
 
 poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
-poetry add vk_api vk vk-requests
+poetry add vk_api
 poetry add python-twitter twitter twython twint
 poetry add aiogram pyrogram pytelegrambotapi telethon
 poetry add instaloader instagram-private-api
