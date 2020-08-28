@@ -92,48 +92,8 @@ brew cask install osxfuse
 brew install sshfs
 
 
-brew cask install kite
-open "/Applications/kite"
-brew cask install visual-studio-code
-open "/Applications/visual studio code"
-code --install-extension shan.code-settings-sync
-code --install-extension formulahendry.terminal
-code --install-extension formulahendry.code-runner
-code --install-extension visualstudioexptteam.vscodeintellicode
-code --install-extension littlefoxteam.vscode-python-test-adapter
-code --install-extension kevinrose.vsc-python-indent
-code --install-extension njpwerner.autodocstring
-code --install-extension magicstack.magicpython
-code --install-extension kiteco.kite
-code --install-extension ms-python.python
-code --install-extension coenraads.bracket-pair-colorizer
-code --install-extension aaron-bond.better-comments
-code --install-extension shardulm94.trailing-spaces
-code --install-extension rust-lang.rust
-code --install-extension alefragnani.project-manager
-code --install-extension formulahendry.docker-explorer
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension knisterpeter.vscode-github
-code --install-extension donjayamanne.githistory
-code --install-extension shaharkazaz.git-merger
-code --install-extension eamodio.gitlens
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension lextudio.restructuredtext
-code --install-extension grapecity.gc-excelviewer
-code --install-extension mechatroner.rainbow-csv
-code --install-extension mohsen1.prettify-json
-code --install-extension bungcip.better-toml
-code --install-extension redhat.vscode-yaml
-code --install-extension skyapps.fish-vscode
-code --install-extension softwaredotcom.swdc-vscode
-code --install-extension pnp.polacode
-code --install-extension vscode-icons-team.vscode-icons
-code --install-extension pkief.material-icon-theme
-code --install-extension equinusocio.vsc-material-theme
-code --install-extension zhuangtongfa.material-theme
-code --install-extension akamud.vscode-theme-onedark
-code --install-extension dracula-theme.theme-dracula
-code --install-extension azemoh.one-monokai
+brew cask install pycharm
+open "/Applications/pycharm"
 
 
 brew install kubectl
