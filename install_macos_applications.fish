@@ -93,7 +93,7 @@ brew install sshfs
 
 
 brew cask install pycharm
-open "/Applications/pycharm"
+open "/Applications/pycharm.app"
 
 
 brew install kubectl
