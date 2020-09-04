@@ -13,49 +13,49 @@ cd ~/Documents/datascience
 poetry new youtubemusiccharts
 cd youtubemusiccharts
 
-poetry add pathos arrow pandas tornado@^4.5.3 pyppeteer tqdm fastapi uvicorn
+poetry add pathos pendulum pandas tornado@^4.5.3 pyppeteer tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new applemusiccharts
 cd applemusiccharts
 
-poetry add arrow pandas httpx lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new deezercharts
 cd deezercharts
 
-poetry add arrow pandas httpx lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new spotifycharts
 cd spotifycharts
 
-poetry add pathos arrow pandas httpx lxml tqdm fastapi uvicorn
+poetry add pathos pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new billboardcharts
 cd billboardcharts
 
-poetry add arrow pandas httpx lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new shazamcharts
 cd shazamcharts
 
-poetry add arrow pandas httpx lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
 poetry new geniuscharts
 cd geniuscharts
 
-poetry add arrow pandas httpx lxml tqdm fastapi uvicorn
+poetry add pendulum pandas httpx lxml tqdm fastapi uvicorn
 
 
 cd ~/Documents/datascience
@@ -111,7 +111,7 @@ cd parsers
 
 poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
-poetry add xmltodict ijson requests-html bs4 scrapy
+poetry add xmltodict ijson requests-html bs4 MechanicalSoup
 poetry add httpx aiohttp wget fake_useragent stem pysocks
 poetry add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter
 poetry add jupyterlab ipywidgets tqdm
