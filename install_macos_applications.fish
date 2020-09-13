@@ -73,6 +73,8 @@ brew cask install iina
 open "/Applications/iina.app"
 brew cask install spotify
 open "/Applications/spotify.app"
+brew install ffmpeg
+brew install youtube-dl
 
 
 brew cask install texpad
