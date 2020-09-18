@@ -113,6 +113,7 @@ docker pull grafana/grafana
 docker pull prom/prometheus
 
 
+brew install gh
 brew install git
 echo "__pycache__" >> ~/.gitignore_global
 echo ".Desktop.ini" >> ~/.gitignore_global
