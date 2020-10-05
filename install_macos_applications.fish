@@ -104,13 +104,6 @@ brew install docker-compose
 brew install docker-machine
 brew cask install docker
 open "/Applications/docker.app"
-sleep 60
-docker pull mysql
-docker pull postgres
-docker pull mongo
-docker pull redis
-docker pull grafana/grafana
-docker pull prom/prometheus
 
 
 brew install gh
