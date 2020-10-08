@@ -98,7 +98,8 @@ brew cask install pycharm
 open "/Applications/pycharm.app"
 
 
-brew install kubectl
+brew install kubernetes-cli
+brew install podman
 brew install docker
 brew install docker-compose
 brew install docker-machine
