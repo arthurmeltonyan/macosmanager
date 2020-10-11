@@ -216,15 +216,3 @@ poetry run ipython kernel install --user --name=naturallanguageprocessing
 
 poetry run python3 -m nltk.downloader all
 poetry run python3 -m textblob.download_corpora
-poetry run python3 -m spacy download en_core_web_sm
-poetry run python3 -m spacy download en_core_web_md
-poetry run python3 -m spacy download en_core_web_lg
-poetry run python3 -m spacy download en_core_news_sm
-poetry run python3 -m spacy download en_core_news_md
-poetry run python3 -m spacy download en_core_news_lg
-poetry run python3 -m spacy download en_depent_web_sm
-poetry run python3 -m spacy download en_depent_web_md
-poetry run python3 -m spacy download en_depent_web_lg
-poetry run python3 -m spacy download en_depent_news_sm
-poetry run python3 -m spacy download en_depent_news_md
-poetry run python3 -m spacy download en_depent_news_lg
