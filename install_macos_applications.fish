@@ -88,9 +88,11 @@ open "/Applications/pycharm.app"
 
 brew install minishift
 brew install openshift-cli
+brew install podman
+pip3 install podman-compose
+
 brew install minikube
 brew install kubernetes-cli
-brew install podman
 brew install docker
 brew install docker-compose
 brew cask install docker
