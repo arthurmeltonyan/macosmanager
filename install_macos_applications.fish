@@ -7,16 +7,6 @@ set fish_greeting
 touch ~/.hushlogin
 
 
-osascript -e \
-'tell application "Terminal"
-	set profile_names to name of every settings set
-	repeat with profile_name in profile_names
-		set font name of settings set profile_name to "Hack Nerd Font Mono"
-		set font size of settings set profile_name to 14
-	end repeat
-end tell'
-
-
 brew install gcc
 brew install cmake
 brew install libomp
