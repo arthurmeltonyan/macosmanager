@@ -43,8 +43,6 @@ brew cask install zoomus
 open "/Applications/zoom.us.app"
 
 
-brew cask install alfred
-open "/Applications/alfred 4.app"
 brew cask install cleanmymac
 open "/Applications/cleanmymac x.app"
 
