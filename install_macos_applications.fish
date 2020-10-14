@@ -117,11 +117,11 @@ echo "set PATH ~/.cargo/bin $PATH" >> ~/.config/fish/config.fish
 
 brew install pyenv
 brew install pyenv-virtualenv
-pyenv install 3.8.0
+pyenv install 3.8.6
 echo "set PATH ~/.pyenv/bin $PATH" >> ~/.config/fish/config.fish
 echo "status --is-interactive; and . (pyenv init -| psub)" >> ~/.config/fish/config.fish
 echo "status --is-interactive; and . (pyenv virtualenv-init -| psub)" >> ~/.config/fish/config.fish
-pyenv global 3.8.0
+pyenv global 3.8.6
 
 
 curl -O https://raw.githubusercontent.com/arthurmeltonyan/macosmanager/master/install_python_libraries.fish
