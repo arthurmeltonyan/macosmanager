@@ -41,8 +41,14 @@ brew cask install discord
 open "/Applications/discord.app"
 brew cask install zoomus
 open "/Applications/zoom.us.app"
+brew cask install telegram
+open "/Applications/telegram.app"
+brew cask install slack
+open "/Applications/slack.app"
 
 
+brew cask install the-unarchiver
+open "/Applications/the unarchiver.app"
 brew cask install cleanmymac
 open "/Applications/cleanmymac x.app"
 
