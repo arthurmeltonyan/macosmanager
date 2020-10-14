@@ -88,6 +88,8 @@ brew cask install osxfuse
 brew install sshfs
 
 
+brew cask install atom
+open "/Applications/atom.app"
 brew cask install pycharm
 open "/Applications/pycharm.app"
 
