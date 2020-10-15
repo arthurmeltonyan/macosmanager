@@ -96,8 +96,10 @@ open "/Applications/pycharm.app"
 
 brew install minishift
 brew install openshift-cli
-brew install podman
-pip3 install podman-compose
+brew install xhyve
+brew install docker-machine-driver-xhyve
+brew install hyperkit
+brew install docker-machine-driver-hyperkit
 
 brew install minikube
 brew install kubernetes-cli
