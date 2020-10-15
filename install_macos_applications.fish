@@ -94,7 +94,7 @@ brew cask install pycharm
 open "/Applications/pycharm.app"
 
 
-brew install minishift
+brew cask install minishift
 brew install openshift-cli
 brew install xhyve
 brew install docker-machine-driver-xhyve
