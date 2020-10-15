@@ -47,10 +47,16 @@ brew cask install slack
 open "/Applications/slack.app"
 
 
+brew cask install balenaetcher
+open "/Applications/balenaetcher.app"
 brew cask install the-unarchiver
 open "/Applications/the unarchiver.app"
 brew cask install cleanmymac
 open "/Applications/cleanmymac x.app"
+brew cask install iterm2
+open "/Applications/iterm.app"
+brew cask install osxfuse
+brew install sshfs
 
 
 brew cask install figma
@@ -71,27 +77,17 @@ brew install ffmpeg
 brew install youtube-dl
 
 
+brew cask install atom
+open "/Applications/atom.app"
+brew cask install pycharm
+open "/Applications/pycharm.app"
 brew cask install texpad
 open "/Applications/texpad.app"
 brew cask install mactex-no-gui
 
 
-brew cask install iterm2
-open "/Applications/iterm.app"
-
-
 brew cask install grammarly
 open "/Applications/grammarly.app"
-
-
-brew cask install osxfuse
-brew install sshfs
-
-
-brew cask install atom
-open "/Applications/atom.app"
-brew cask install pycharm
-open "/Applications/pycharm.app"
 
 
 brew install minikube
