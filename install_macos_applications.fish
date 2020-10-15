@@ -94,19 +94,20 @@ brew cask install pycharm
 open "/Applications/pycharm.app"
 
 
-brew cask install minishift
-brew install openshift-cli
-brew install xhyve
-brew install docker-machine-driver-xhyve
-brew install hyperkit
-brew install docker-machine-driver-hyperkit
-
 brew install minikube
 brew install kubernetes-cli
 brew install docker
 brew install docker-compose
 brew cask install docker
 open "/Applications/docker.app"
+
+
+brew cask install minishift
+brew install openshift-cli
+brew install xhyve
+brew install docker-machine-driver-xhyve
+brew install hyperkit
+brew install docker-machine-driver-hyperkit
 
 
 brew install gh
