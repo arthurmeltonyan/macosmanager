@@ -119,6 +119,7 @@ echo ".Trashes" >> ~/.gitignore_global
 echo "*.pyc" >> ~/.gitignore_global
 echo ".git" >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
+git config --global user.name "Arthur Meltonyan"
 git config --global user.email arthur.meltonyan@gmail.com
 
 
