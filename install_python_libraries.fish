@@ -5,10 +5,6 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 echo "set PATH ~/.poetry/bin $PATH" >> ~/.config/fish/config.fish
 
 
-cd ~/Documents
-mkdir datascience
-
-
 cd ~/Documents/datascience
 poetry new youtubemusiccharts
 cd youtubemusiccharts
