@@ -47,8 +47,6 @@ brew cask install slack
 open "/Applications/slack.app"
 
 
-brew cask install balenaetcher
-open "/Applications/balenaetcher.app"
 brew cask install the-unarchiver
 open "/Applications/the unarchiver.app"
 brew cask install cleanmymac
