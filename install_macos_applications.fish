@@ -77,8 +77,6 @@ brew install ffmpeg
 brew install youtube-dl
 
 
-brew cask install atom
-open "/Applications/atom.app"
 brew cask install pycharm
 open "/Applications/pycharm.app"
 brew cask install texpad
