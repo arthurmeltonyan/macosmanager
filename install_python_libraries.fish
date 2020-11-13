@@ -109,7 +109,7 @@ poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add xmltodict ijson requests-html bs4 MechanicalSoup
 poetry add httpx aiohttp wget fake_useragent stem pysocks
-poetry add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter
+poetry add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter playwright
 poetry add jupyterlab ipywidgets tqdm
 
 poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
