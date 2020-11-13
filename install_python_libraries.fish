@@ -199,7 +199,7 @@ cd naturallanguageprocessing
 poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add torch torchtext fastai tensorflow keras thinc 
-poetry add textacy spacy spacy_cld textpipe sense2vec allennlp spacy-stanza stanza 
+poetry add textacy spacy spacy_cld textpipe sense2vec allennlp spacy-stanza stanza dostoevsky
 poetry add blackstone chatterbot alibi spacymoji ludwig mlflow 
 poetry add spacy-transformers transformers sentence-transformers
 poetry add neuralcoref nlp-architect
