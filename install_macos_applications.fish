@@ -11,8 +11,7 @@ brew install gcc
 brew install cmake
 brew install libomp
 brew install open-mpi
-
-
+brew install zlib
 brew install node
 brew install npm
 
