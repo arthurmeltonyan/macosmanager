@@ -92,6 +92,8 @@ brew install docker
 brew install docker-compose
 brew cask install docker
 open "/Applications/docker.app"
+brew cask install kitematic
+open "/Applications/kitematic.app"
 
 
 brew cask install minishift
@@ -102,6 +104,8 @@ brew install hyperkit
 brew install docker-machine-driver-hyperkit
 
 
+brew cask install fork
+open "/Applications/fork.app"
 brew install gh
 brew install git
 echo "__pycache__" >> ~/.gitignore_global
