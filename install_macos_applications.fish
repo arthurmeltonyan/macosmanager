@@ -46,6 +46,8 @@ brew cask install slack
 open "/Applications/slack.app"
 
 
+brew cask install alfred
+open "/Applications/alfred.app"
 brew cask install the-unarchiver
 open "/Applications/the unarchiver.app"
 brew cask install cleanmymac
