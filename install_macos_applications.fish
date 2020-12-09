@@ -2,7 +2,7 @@ brew install starship
 touch ~/.config/fish/config.fish
 echo "starship init fish | source" >> ~/.config/fish/config.fish
 brew tap homebrew/cask-fonts
-brew cask install font-hack-nerd-font
+brew install --cask font-hack-nerd-font
 set fish_greeting
 touch ~/.hushlogin
 
@@ -26,68 +26,72 @@ echo "set LANG en_US.UTF-8" >> ~/.config/fish/config.fish
 
 
 brew install tor
-brew cask install tor-browser
+brew install --cask tor-browser
 open "/Applications/tor browser.app"
-brew cask install brave-browser
+brew install --cask brave-browser
 open "/Applications/brave browser.app"
-brew cask install google-chrome
+brew install --cask google-chrome
 open "/Applications/google chrome.app"
-brew cask install transmission
+brew install --cask transmission
 open "/Applications/transmission.app"
 
 
-brew cask install discord
+brew install --cask discord
 open "/Applications/discord.app"
-brew cask install zoomus
+brew install --cask zoomus
 open "/Applications/zoom.us.app"
-brew cask install telegram
+brew install --cask telegram
 open "/Applications/telegram.app"
-brew cask install slack
+brew install --cask slack
 open "/Applications/slack.app"
 
 
-brew cask install alfred
+brew install --cask alfred
 open "/Applications/alfred.app"
-brew cask install the-unarchiver
+brew install --cask the-unarchiver
 open "/Applications/the unarchiver.app"
-brew cask install forklift
+brew install --cask forklift
 open "/Applications/forklift.app"
-brew cask install cleanmymac
+brew install --cask trnasmit
+open "/Applications/transmit.app"
+
+
+brew install --cask cleanmymac
 open "/Applications/cleanmymac x.app"
-brew cask install sensei
+brew install --cask sensei
 open "/Applications/sensei.app"
-brew cask install iterm2
+brew install --cask iterm2
 open "/Applications/iterm.app"
-brew cask install osxfuse
+brew install --cask osxfuse
 brew install sshfs
 
 
-brew cask install figma
+brew install --cask figma
 open "/Applications/figma.app"
 
 
-brew cask install paw
+brew install --cask paw
 open "/Applications/paw.app"
-brew cask install tableplus
+brew install --cask tableplus
 open "/Applications/tableplus.app"
 
 
-brew cask install iina
+brew install --cask iina
 open "/Applications/iina.app"
-brew cask install spotify
+brew install --cask spotify
 open "/Applications/spotify.app"
 brew install ffmpeg
 brew install youtube-dl
 
 
-brew cask install pycharm
+brew install --cask pycharm
 open "/Applications/pycharm.app"
-brew cask install texpad
+brew install --cask texpad
 open "/Applications/texpad.app"
-brew cask install mactex-no-gui
+brew install --cask mactex-no-gui
 
 
-brew cask install grammarly
+brew install --cask grammarly
 open "/Applications/grammarly.app"
 
 
@@ -95,13 +99,13 @@ brew install minikube
 brew install kubernetes-cli
 brew install docker
 brew install docker-compose
-brew cask install docker
+brew install --cask docker
 open "/Applications/docker.app"
-brew cask install kitematic
+brew install --cask kitematic
 open "/Applications/kitematic.app"
 
 
-brew cask install minishift
+brew install --cask minishift
 brew install openshift-cli
 brew install xhyve
 brew install docker-machine-driver-xhyve
@@ -109,7 +113,7 @@ brew install hyperkit
 brew install docker-machine-driver-hyperkit
 
 
-brew cask install fork
+brew install --cask fork
 open "/Applications/fork.app"
 brew install gh
 brew install git
