@@ -54,6 +54,8 @@ brew cask install forklift
 open "/Applications/forklift.app"
 brew cask install cleanmymac
 open "/Applications/cleanmymac x.app"
+brew cask install sensei
+open "/Applications/sensei.app"
 brew cask install iterm2
 open "/Applications/iterm.app"
 brew cask install osxfuse
