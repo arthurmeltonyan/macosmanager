@@ -68,14 +68,6 @@ brew install sshfs
 
 brew install --cask figma
 open "/Applications/figma.app"
-
-
-brew install --cask paw
-open "/Applications/paw.app"
-brew install --cask tableplus
-open "/Applications/tableplus.app"
-
-
 brew install --cask iina
 open "/Applications/iina.app"
 brew install --cask spotify
@@ -84,8 +76,6 @@ brew install ffmpeg
 brew install youtube-dl
 
 
-brew install --cask pycharm
-open "/Applications/pycharm.app"
 brew install --cask texpad
 open "/Applications/texpad.app"
 brew install --cask mactex-no-gui
@@ -113,6 +103,12 @@ brew install hyperkit
 brew install docker-machine-driver-hyperkit
 
 
+brew install --cask paw
+open "/Applications/paw.app"
+brew install --cask tableplus
+open "/Applications/tableplus.app"
+brew install --cask pycharm
+open "/Applications/pycharm.app"
 brew install --cask fork
 open "/Applications/fork.app"
 brew install gh
