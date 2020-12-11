@@ -54,8 +54,6 @@ brew install --cask forklift
 open "/Applications/forklift.app"
 brew install --cask trnasmit
 open "/Applications/transmit.app"
-
-
 brew install --cask cleanmymac
 open "/Applications/cleanmymac x.app"
 brew install --cask sensei
