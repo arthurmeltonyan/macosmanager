@@ -34,8 +34,6 @@ brew install --cask google-chrome
 open "/Applications/google chrome.app"
 brew install --cask transmission
 open "/Applications/transmission.app"
-
-
 brew install --cask discord
 open "/Applications/discord.app"
 brew install --cask zoomus
@@ -46,6 +44,8 @@ brew install --cask slack
 open "/Applications/slack.app"
 
 
+brew install --cask rectangle
+open "/Applications/rectangle.app"
 brew install --cask alfred
 open "/Applications/alfred.app"
 brew install --cask the-unarchiver
