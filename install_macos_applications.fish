@@ -50,8 +50,6 @@ brew install --cask alfred
 open "/Applications/alfred.app"
 brew install --cask the-unarchiver
 open "/Applications/the unarchiver.app"
-brew install --cask forklift
-open "/Applications/forklift.app"
 brew install --cask trnasmit
 open "/Applications/transmit.app"
 brew install --cask cleanmymac
