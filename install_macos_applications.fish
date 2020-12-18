@@ -133,5 +133,15 @@ echo "status --is-interactive; and . (pyenv virtualenv-init -| psub)" >> ~/.conf
 pyenv global 3.8.6
 
 
+brew install mas
+mas install things
+mas install pages
+mas install keynote
+mas install numbers
+mas install shazam
+mas install imovie
+mas install pixelmator
+
+
 curl -O https://raw.githubusercontent.com/arthurmeltonyan/macosmanager/master/install_python_libraries.fish
 # osascript -e 'tell app "Terminal" to do script "source install_python_libraries.fish"'
