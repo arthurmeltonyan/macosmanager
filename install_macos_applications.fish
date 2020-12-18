@@ -134,13 +134,14 @@ pyenv global 3.8.6
 
 
 brew install mas
-mas install things
-mas install pages
-mas install keynote
-mas install numbers
-mas install shazam
-mas install imovie
-mas install pixelmator
+mas lucky things
+mas lucky pages
+mas lucky keynote
+mas lucky numbers
+mas lucky shazam
+mas lucky imovie
+mas lucky spark
+mas lucky pixelmator
 
 
 curl -O https://raw.githubusercontent.com/arthurmeltonyan/macosmanager/master/install_python_libraries.fish
