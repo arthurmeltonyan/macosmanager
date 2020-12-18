@@ -134,13 +134,14 @@ pyenv global 3.8.6
 
 
 brew install mas
-mas lucky things
 mas lucky pages
 mas lucky keynote
 mas lucky numbers
 mas lucky shazam
 mas lucky imovie
 mas lucky spark
+mas lucky keykey
+mas lucky things
 mas lucky pixelmator
 
 
