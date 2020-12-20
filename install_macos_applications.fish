@@ -44,8 +44,8 @@ brew install --cask slack
 open "/Applications/slack.app"
 
 
-brew install --cask rectangle
-open "/Applications/rectangle.app"
+brew install --cask amethyst
+open "/Applications/amethyst.app"
 brew install --cask alfred
 open "/Applications/alfred.app"
 brew install --cask the-unarchiver
@@ -58,6 +58,7 @@ brew install --cask sensei
 open "/Applications/sensei.app"
 brew install --cask iterm2
 open "/Applications/iterm.app"
+brew install --cask openinterminal
 brew install --cask osxfuse
 brew install sshfs
 
