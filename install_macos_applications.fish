@@ -141,10 +141,11 @@ mas lucky keynote
 mas lucky numbers
 mas lucky shazam
 mas lucky imovie
+mas lucky encrypto
 mas lucky spark
 mas lucky keykey
 mas lucky things
-mas lucky pixelmator
+mas lucky pixelmatorpro
 
 
 curl -O https://raw.githubusercontent.com/arthurmeltonyan/macosmanager/master/install_python_libraries.fish
