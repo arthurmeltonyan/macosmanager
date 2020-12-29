@@ -86,8 +86,6 @@ brew install docker
 brew install docker-compose
 brew install --cask docker
 open "/Applications/docker.app"
-brew install --cask kitematic
-open "/Applications/kitematic.app"
 
 
 brew install --cask minishift
