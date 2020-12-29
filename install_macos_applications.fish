@@ -54,8 +54,6 @@ brew install --cask trnasmit
 open "/Applications/transmit.app"
 brew install --cask cleanmymac
 open "/Applications/cleanmymac x.app"
-brew install --cask sensei
-open "/Applications/sensei.app"
 brew install --cask iterm2
 open "/Applications/iterm.app"
 brew install --cask openinterminal
