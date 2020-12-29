@@ -100,8 +100,8 @@ brew install --cask paw
 open "/Applications/paw.app"
 brew install --cask tableplus
 open "/Applications/tableplus.app"
-brew install --cask pycharm
-open "/Applications/pycharm.app"
+brew install --cask pycharm-ce
+open "/Applications/pycharm ce.app"
 brew install --cask fork
 open "/Applications/fork.app"
 brew install gh
