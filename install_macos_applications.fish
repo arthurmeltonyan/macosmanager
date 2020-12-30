@@ -130,7 +130,6 @@ pyenv global 3.8.6
 
 
 brew install mas
-mas lucky xcode
 mas lucky pages
 mas lucky keynote
 mas lucky numbers
