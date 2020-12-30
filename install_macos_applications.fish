@@ -12,6 +12,7 @@ brew install cmake
 brew install libomp
 brew install open-mpi
 brew install zlib
+brew install bzip2
 brew install node
 brew install npm
 
@@ -122,6 +123,8 @@ echo "set PATH ~/.cargo/bin $PATH" >> ~/.config/fish/config.fish
 
 brew install pyenv
 brew install pyenv-virtualenv
+export LDFLAGS="-L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/zlib/lib"
+export CPPFLAGS="-I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/zlib/include"
 pyenv install 3.8.6
 echo "set PATH ~/.pyenv/bin $PATH" >> ~/.config/fish/config.fish
 echo "status --is-interactive; and . (pyenv init -| psub)" >> ~/.config/fish/config.fish
