@@ -94,16 +94,6 @@ brew install hyperkit
 brew install docker-machine-driver-hyperkit
 
 
-brew install --cask paw
-open "/Applications/paw.app"
-brew install --cask tableplus
-open "/Applications/tableplus.app"
-brew install --cask transmit
-open "/Applications/transmit.app"
-brew install --cask pycharm-ce
-open "/Applications/pycharm ce.app"
-brew install --cask fork
-open "/Applications/fork.app"
 brew install gh
 brew install git
 echo "__pycache__" >> ~/.gitignore_global
@@ -115,6 +105,18 @@ echo ".git" >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 git config --global user.name "Arthur Meltonyan"
 git config --global user.email arthur.meltonyan@gmail.com
+
+
+brew install --cask paw
+open "/Applications/paw.app"
+brew install --cask tableplus
+open "/Applications/tableplus.app"
+brew install --cask transmit
+open "/Applications/transmit.app"
+brew install --cask pycharm-ce
+open "/Applications/pycharm ce.app"
+brew install --cask fork
+open "/Applications/fork.app"
 
 
 brew install rustup
