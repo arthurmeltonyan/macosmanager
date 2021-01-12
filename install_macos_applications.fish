@@ -51,8 +51,6 @@ brew install --cask alfred
 open "/Applications/alfred.app"
 brew install --cask the-unarchiver
 open "/Applications/the unarchiver.app"
-brew install --cask trnasmit
-open "/Applications/transmit.app"
 brew install --cask cleanmymac
 open "/Applications/cleanmymac x.app"
 brew install --cask iterm2
