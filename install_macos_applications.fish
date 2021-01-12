@@ -23,7 +23,7 @@ brew install lsd
 brew install lftp
 brew install trash
 brew install rename
-echo "set LANG en_US.UTF-8" >> ~/.config/fish/config.fish
+set -Ux LANG en_US.UTF-8
 
 
 brew install tor
@@ -128,7 +128,7 @@ brew install pyenv-virtualenv
 export LDFLAGS="-L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/zlib/include"
 pyenv install 3.8.6
-echo "set PATH ~/.pyenv/bin $PATH" >> ~/.config/fish/config.fish
+set -Ux PATH ~/.pyenv/bin $PATH
 echo "status --is-interactive; and . (pyenv init -| psub)" >> ~/.config/fish/config.fish
 echo "status --is-interactive; and . (pyenv virtualenv-init -| psub)" >> ~/.config/fish/config.fish
 pyenv global 3.8.6
