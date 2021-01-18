@@ -154,7 +154,7 @@ poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add torch torchtext fastai tensorflow keras thinc 
 poetry add textacy spacy spacy_cld textpipe sense2vec allennlp spacy-stanza stanza dostoevsky
 poetry add blackstone chatterbot alibi spacymoji ludwig mlflow 
-poetry add spacy-transformers transformers sentence-transformers
+poetry add spacy-transformers transformers sentence-transformers keybert
 poetry add neuralcoref nlp-architect
 poetry add wordcloud pyldavis lda2vec nltk polyglot flair textblob pattern spark-nlp gensim fasttext
 poetry add deeppavlov natasha slovnet razdel navec ipymarkup pymorphy2-dicts pymorphy2
