@@ -45,8 +45,6 @@ brew install --cask slack
 open "/Applications/slack.app"
 
 
-brew install --cask amethyst
-open "/Applications/amethyst.app"
 brew install --cask alfred
 open "/Applications/alfred.app"
 brew install --cask the-unarchiver
