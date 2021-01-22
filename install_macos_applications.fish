@@ -129,6 +129,7 @@ mas lucky shazam
 mas lucky imovie
 mas lucky encrypto
 mas lucky spark
+mas lucky noto
 mas lucky keykey
 mas lucky things3
 mas lucky pixelmatorpro
