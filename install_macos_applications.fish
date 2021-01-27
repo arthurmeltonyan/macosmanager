@@ -45,6 +45,8 @@ brew install --cask slack
 open "/Applications/slack.app"
 
 
+brew install --cask eul
+open "/Applications/eul.app"
 brew install --cask alfred
 open "/Applications/alfred.app"
 brew install --cask the-unarchiver
