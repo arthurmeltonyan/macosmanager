@@ -121,6 +121,17 @@ brew install rustup
 echo "set PATH ~/.cargo/bin $PATH" >> ~/.config/fish/config.fish
 
 
+brew install pyenv
+brew install pyenv-virtualenv
+set LDFLAGS "-L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/zlib/lib"
+set CPPFLAGS "-I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/zlib/include"
+pyenv install 3.9.1
+set -Ux PATH ~/.pyenv/bin $PATH
+echo "status --is-interactive; and . (pyenv init -| psub)" >> ~/.config/fish/config.fish
+echo "status --is-interactive; and . (pyenv virtualenv-init -| psub)" >> ~/.config/fish/config.fish
+pyenv global 3.9.1
+
+
 brew install mas
 mas lucky pages
 mas lucky keynote
