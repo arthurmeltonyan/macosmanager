@@ -1,7 +1,7 @@
 pip3 install --user -U pip
 
 
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.9
 set -Ux PATH ~/.poetry/bin $PATH
 cd ~/Documents
 mkdir datascience
@@ -75,7 +75,7 @@ cd dataanalysis
 
 poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
-poetry add scikit-learn imbalanced-learn hdbscan
+poetry add scikit-learn imbalanced-learn hdbscan umap-learn
 poetry add pyod hyperopt tune category_encoders featuretools
 poetry add xgboost catboost lightgbm
 poetry add torch fastai tensorflow keras thinc
