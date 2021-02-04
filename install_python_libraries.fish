@@ -2,7 +2,7 @@ pip3 install --user -U pip
 
 
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.9
-set -Ux PATH ~/.poetry/bin $PATH
+set -Ua fish_user_paths ~/.poetry/bin $fish_user_paths
 cd ~/Documents
 mkdir datascience
 
