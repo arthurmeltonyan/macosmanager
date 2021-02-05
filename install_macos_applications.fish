@@ -54,7 +54,6 @@ open "/Applications/cleanmymac x.app"
 brew install --cask iterm2
 open "/Applications/iterm.app"
 brew install --cask osxfuse
-brew install sshfs
 
 
 brew install --cask figma
