@@ -1,4 +1,4 @@
-pip3 install --user -U pip
+pip3 install --user --upgrade pip
 
 
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.9
