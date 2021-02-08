@@ -11,6 +11,8 @@ brew install gcc
 brew install cmake
 brew install libomp
 brew install open-mpi
+brew install openblas
+brew install lapack
 brew install zlib
 brew install bzip2
 brew install node
