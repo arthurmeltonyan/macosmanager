@@ -81,6 +81,7 @@ brew install minikube
 brew install kubernetes-cli
 brew install docker
 brew install docker-compose
+brew install helm
 brew install --cask docker
 open "/Applications/docker.app"
 
