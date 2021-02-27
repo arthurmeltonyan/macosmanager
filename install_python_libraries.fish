@@ -4,10 +4,9 @@ pip3.9 install --user --upgrade pip
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.9
 set -Ua fish_user_paths ~/.poetry/bin $fish_user_paths
 cd ~/Documents
-mkdir datascience
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new musio
 cd musio
 
@@ -21,7 +20,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=musio
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new applications
 cd applications
 
@@ -38,7 +37,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=applications
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new socialnetworks
 cd socialnetworks
 
@@ -54,7 +53,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=socialnetworks
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new parsers
 cd parsers
 
@@ -69,7 +68,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=parsers
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new dataanalysis
 cd dataanalysis
 
@@ -86,7 +85,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=dataanalysis
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new bigdata
 cd bigdata
 
@@ -103,7 +102,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=bigdata
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new recommendations
 cd recommendations
 
@@ -116,7 +115,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=recommendations
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new timeseries
 cd timeseries
 
@@ -129,7 +128,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=timeseries
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new computervision
 cd computervision
 
@@ -145,7 +144,7 @@ poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=computervision
 
 
-cd ~/Documents/datascience
+cd ~/Documents
 poetry new naturallanguageprocessing
 cd naturallanguageprocessing
 
