@@ -128,11 +128,11 @@ brew install pyenv
 brew install pyenv-virtualenv
 set -Ux LDFLAGS -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/zlib/lib
 set -Ux CPPFLAGS -I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/zlib/include
-pyenv install 3.9.1
+pyenv install 3.9.5
 set -Ua fish_user_paths ~/.pyenv/bin $fish_user_paths
 echo "status --is-interactive; and . (pyenv init -| psub)" >> ~/.config/fish/config.fish
 echo "status --is-interactive; and . (pyenv virtualenv-init -| psub)" >> ~/.config/fish/config.fish
-pyenv global 3.9.1
+pyenv global 3.9.5
 
 
 brew install mas
