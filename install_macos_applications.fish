@@ -39,7 +39,7 @@ brew install --cask transmission
 open "/Applications/transmission.app"
 brew install --cask discord
 open "/Applications/discord.app"
-brew install --cask zoomus
+brew install --cask zoom
 open "/Applications/zoom.us.app"
 brew install --cask telegram
 open "/Applications/telegram.app"
