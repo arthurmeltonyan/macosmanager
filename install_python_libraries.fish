@@ -3,6 +3,7 @@ pip3.9 install --user --upgrade pip
 
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.9
 set -Ua fish_user_paths ~/.poetry/bin $fish_user_paths
+poetry config virtualenvs.in-project true
 cd ~/Documents
 
 
