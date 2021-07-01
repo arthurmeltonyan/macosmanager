@@ -62,8 +62,8 @@ brew install --cask figma
 open "/Applications/figma.app"
 brew install --cask iina
 open "/Applications/iina.app"
-brew install --cask spotify
-open "/Applications/spotify.app"
+#brew install --cask spotify
+#open "/Applications/spotify.app"
 brew install ffmpeg
 brew install youtube-dl
 
