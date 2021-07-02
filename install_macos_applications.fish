@@ -77,13 +77,13 @@ brew install --cask grammarly
 open "/Applications/grammarly.app"
 
 
-brew install minikube
-brew install kubernetes-cli
-brew install docker
-brew install docker-compose
-brew install helm
 brew install --cask docker
 open "/Applications/docker.app"
+brew install docker
+brew install docker-compose
+brew install minikube
+brew install kubernetes-cli
+brew install helm
 
 
 brew install --cask minishift
