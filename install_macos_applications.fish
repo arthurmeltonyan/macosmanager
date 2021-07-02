@@ -37,8 +37,6 @@ brew install --cask google-chrome
 open "/Applications/google chrome.app"
 brew install --cask transmission
 open "/Applications/transmission.app"
-brew install --cask discord
-open "/Applications/discord.app"
 brew install --cask zoom
 open "/Applications/zoom.us.app"
 brew install --cask telegram
