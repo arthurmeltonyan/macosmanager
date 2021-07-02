@@ -114,8 +114,8 @@ brew install --cask tableplus
 open "/Applications/tableplus.app"
 brew install --cask transmit
 open "/Applications/transmit.app"
-brew install --cask pycharm-ce
-open "/Applications/pycharm ce.app"
+brew install --cask nova
+open "/Applications/nova.app"
 brew install --cask fork
 open "/Applications/fork.app"
 
