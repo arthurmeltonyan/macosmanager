@@ -119,7 +119,8 @@ open "/Applications/fork.app"
 
 
 brew install rustup
-set -Ua fish_user_paths ~/.cargo/bin $fish_user_paths
+set -Ux CARGO_ROOT $HOME/.cargo
+set -Ua fish_user_paths $CARGO_ROOT/bin $fish_user_paths
 
 
 brew install pyenv
