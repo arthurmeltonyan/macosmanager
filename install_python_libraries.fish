@@ -15,142 +15,43 @@ poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
 poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add lyricsgenius beets
 poetry add spotipy
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=musio
-
-
-cd ~/Documents
-poetry new applications
-cd applications
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add streamlit fastapi uvicorn
 poetry add dephell -E complete
 poetry add mypy typing_extensions marshmallow attrs
 poetry add peewee pony
 poetry add pytest pyinstrument
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=applications
-
-
-cd ~/Documents
-poetry new socialnetworks
-cd socialnetworks
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add vk_api
 poetry add python-twitter twitter twython twint
 poetry add aiogram pyrogram pytelegrambotapi telethon
 poetry add instaloader instagram-private-api
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=socialnetworks
-
-
-cd ~/Documents
-poetry new parsers
-cd parsers
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add xmltodict ijson requests-html bs4 MechanicalSoup
 poetry add httpx aiohttp wget fake_useragent stem pysocks
 poetry add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter playwright
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=parsers
-
-
-cd ~/Documents
-poetry new dataanalysis
-cd dataanalysis
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add scikit-learn imbalanced-learn hdbscan umap-learn
 poetry add pyod hyperopt tune category_encoders featuretools
 poetry add xgboost catboost lightgbm
 poetry add torch fastai tensorflow keras thinc
 poetry add shap lime interpret
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=dataanalysis
-
-
-cd ~/Documents
-poetry new bigdata
-cd bigdata
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add ray -E complete
 poetry add dask -E complete
 poetry add modin -E complete
 poetry add apache-airflow -E complete
 poetry add pyspark findspark
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=bigdata
-
-
-cd ~/Documents
-poetry new recommendations
-cd recommendations
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add implicit scikit-surprise lightfm tensorrec spotlight
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=recommendations
-
-
-cd ~/Documents
-poetry new timeseries
-cd timeseries
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add statsmodels fbprophet
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=timeseries
-
-
-cd ~/Documents
-poetry new computervision
-cd computervision
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add torch torchvision fastai tensorflow keras thinc
 poetry add scikit-image imageai opencv-python av pims moviepy
 poetry add imgaug augmentor albumentations
 poetry add face_recognition
-poetry add jupyterlab ipywidgets tqdm
 
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
-poetry run ipython kernel install --user --name=computervision
-
-
-cd ~/Documents
-poetry new naturallanguageprocessing
-cd naturallanguageprocessing
-
-poetry add scipy numpy numba swifter pandas xlrd xlsxwriter
-poetry add matplotlib seaborn cufflinks chart_studio plotly
 poetry add torch torchtext fastai tensorflow keras thinc 
 poetry add textacy spacy spacy_cld textpipe sense2vec allennlp spacy-stanza stanza dostoevsky
 poetry add blackstone chatterbot alibi spacymoji ludwig mlflow 
@@ -158,7 +59,6 @@ poetry add spacy-transformers transformers sentence-transformers keybert
 poetry add neuralcoref nlp-architect
 poetry add wordcloud pyldavis lda2vec nltk polyglot flair textblob pattern spark-nlp gensim fasttext
 poetry add deeppavlov natasha slovnet razdel navec ipymarkup pymorphy2-dicts pymorphy2
-poetry add jupyterlab ipywidgets tqdm
 
 poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
 poetry run ipython kernel install --user --name=naturallanguageprocessing
