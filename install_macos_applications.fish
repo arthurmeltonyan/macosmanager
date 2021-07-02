@@ -133,19 +133,5 @@ set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 pyenv global 3.9.6
 
 
-brew install mas
-mas lucky pages
-mas lucky keynote
-mas lucky numbers
-mas lucky shazam
-mas lucky imovie
-mas lucky encrypto
-mas lucky spark
-mas lucky noto
-mas lucky keykey
-mas lucky things3
-mas lucky pixelmatorpro
-
-
 curl -O https://raw.githubusercontent.com/arthurmeltonyan/macosmanager/master/install_python_libraries.fish
 # osascript -e 'tell app "Terminal" to do script "source install_python_libraries.fish"'
