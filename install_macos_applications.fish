@@ -3,7 +3,7 @@ touch ~/.config/fish/config.fish
 echo "starship init fish | source" >> ~/.config/fish/config.fish
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
-set fish_greeting ""
+set fish_greeting
 touch ~/.hushlogin
 
 
