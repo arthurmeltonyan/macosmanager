@@ -25,7 +25,7 @@ pdm add python-twitter twitter twython twint
 pdm add aiogram pyrogram pytelegrambotapi telethon
 pdm add instaloader instagram-private-api
 
-pdm add xmltodict ijson requests-html bs4 MechanicalSoup
+pdm add xmltodict ijson requests-html bs4 mechanicalsoup
 pdm add httpx aiohttp wget fake_useragent stem pysocks
 pdm add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter playwright
 
