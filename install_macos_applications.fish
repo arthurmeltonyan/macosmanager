@@ -121,8 +121,6 @@ set -U fish_user_paths $CARGO_ROOT/bin $fish_user_paths
 
 brew install pyenv
 brew install pyenv-virtualenv
-set -Ux LDFLAGS -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/zlib/lib
-set -Ux CPPFLAGS -I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/zlib/include
 pyenv install 3.9.6
 echo "status is-interactive; and pyenv init --path | source" >> ~/.config/fish/config.fish
 echo "pyenv init - | source" >> ~/.config/fish/config.fish
