@@ -86,7 +86,6 @@ open "/Applications/fork.app"
 brew install --cask docker
 open "/Applications/docker.app"
 brew install docker
-brew install docker-compose
 brew install minikube
 brew install kubernetes-cli
 brew install helm
