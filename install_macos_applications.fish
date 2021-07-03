@@ -130,6 +130,5 @@ set -Ux PYENV_ROOT $HOME/.pyenv
 set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 pyenv global 3.9.6
 
-
-curl -O https://raw.githubusercontent.com/arthurmeltonyan/macosmanager/master/install_python_libraries.fish
-# osascript -e 'tell app "Terminal" to do script "source install_python_libraries.fish"'
+pip3.9 install --user --upgrade pip
+curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3.9 -
