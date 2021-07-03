@@ -2,8 +2,6 @@ pip3.9 install --user --upgrade pip
 
 
 curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3.9 -
-set -Ua fish_user_paths ~/.poetry/bin $fish_user_paths
-pdm config virtualenvs.in-project true
 cd ~/Documents
 
 
