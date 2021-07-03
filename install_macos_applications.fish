@@ -116,7 +116,7 @@ git config --global user.email arthur.meltonyan@gmail.com
 
 brew install rustup
 set -Ux CARGO_ROOT $HOME/.cargo
-set -Ux fish_user_paths $CARGO_ROOT/bin $fish_user_paths
+set -U fish_user_paths $CARGO_ROOT/bin $fish_user_paths
 
 
 brew install pyenv
