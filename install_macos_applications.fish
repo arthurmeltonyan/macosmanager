@@ -71,10 +71,6 @@ open "/Applications/texpad.app"
 brew install --cask mactex-no-gui
 
 
-brew install --cask grammarly
-open "/Applications/grammarly.app"
-
-
 brew install --cask docker
 open "/Applications/docker.app"
 brew install docker
