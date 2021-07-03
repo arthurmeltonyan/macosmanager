@@ -125,7 +125,7 @@ set -Ux LDFLAGS -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -
 set -Ux CPPFLAGS -I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/zlib/include
 pyenv install 3.9.6
 set -Ux PYENV_ROOT $HOME/.pyenv
-set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 pyenv global 3.9.6
 
 
