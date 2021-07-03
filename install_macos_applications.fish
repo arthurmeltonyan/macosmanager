@@ -71,6 +71,18 @@ open "/Applications/texpad.app"
 brew install --cask mactex-no-gui
 
 
+brew install --cask paw
+open "/Applications/paw.app"
+brew install --cask tableplus
+open "/Applications/tableplus.app"
+brew install --cask transmit
+open "/Applications/transmit.app"
+brew install --cask nova
+open "/Applications/nova.app"
+brew install --cask fork
+open "/Applications/fork.app"
+
+
 brew install --cask docker
 open "/Applications/docker.app"
 brew install docker
@@ -102,21 +114,9 @@ git config --global user.name "Arthur Meltonyan"
 git config --global user.email arthur.meltonyan@gmail.com
 
 
-brew install --cask paw
-open "/Applications/paw.app"
-brew install --cask tableplus
-open "/Applications/tableplus.app"
-brew install --cask transmit
-open "/Applications/transmit.app"
-brew install --cask nova
-open "/Applications/nova.app"
-brew install --cask fork
-open "/Applications/fork.app"
-
-
 brew install rustup
 set -Ux CARGO_ROOT $HOME/.cargo
-set -Ua fish_user_paths $CARGO_ROOT/bin $fish_user_paths
+set -Ux fish_user_paths $CARGO_ROOT/bin $fish_user_paths
 
 
 brew install pyenv
