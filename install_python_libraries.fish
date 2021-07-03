@@ -31,7 +31,7 @@ pdm add xmltodict ijson requests-html bs4 MechanicalSoup
 pdm add httpx aiohttp wget fake_useragent stem pysocks
 pdm add tornado@^4.5.3 pyppeteer selenium webdriver_manager splinter playwright
 
-ppdm add scikit-learn imbalanced-learn hdbscan umap-learn
+pdm add scikit-learn imbalanced-learn hdbscan umap-learn
 pdm add pyod hyperopt tune category_encoders featuretools
 pdm add xgboost catboost lightgbm
 pdm add torch fastai tensorflow keras thinc
@@ -43,7 +43,7 @@ pdm add modin -E complete
 pdm add apache-airflow -E complete
 pdm add pyspark findspark
 
-ppdm add implicit scikit-surprise lightfm tensorrec spotlight
+pdm add implicit scikit-surprise lightfm tensorrec spotlight
 
 pdm add statsmodels fbprophet
 
