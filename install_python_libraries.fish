@@ -1,10 +1,3 @@
-pip3.9 install --user --upgrade pip
-
-
-curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3.9 -
-cd ~/Documents
-
-
 cd ~/Documents
 poetry new musio
 cd musio
