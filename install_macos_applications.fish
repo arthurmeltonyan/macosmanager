@@ -43,6 +43,8 @@ brew install --cask telegram
 open "/Applications/telegram.app"
 brew install --cask slack
 open "/Applications/slack.app"
+brew install --cask signal
+open "/Applications/signal.app"
 
 
 brew install --cask alfred
