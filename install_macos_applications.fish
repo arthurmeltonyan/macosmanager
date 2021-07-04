@@ -35,6 +35,8 @@ brew install --cask brave-browser
 open "/Applications/brave browser.app"
 brew install --cask google-chrome
 open "/Applications/google chrome.app"
+brew install --cask firefox
+open "/Applications/firefox.app"
 brew install --cask transmission
 open "/Applications/transmission.app"
 brew install --cask zoom
