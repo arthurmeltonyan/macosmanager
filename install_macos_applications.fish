@@ -39,6 +39,8 @@ brew install --cask firefox
 open "/Applications/firefox.app"
 brew install --cask transmission
 open "/Applications/transmission.app"
+brew install --cask coscreen
+open "/Applications/coscreen.app"
 brew install --cask zoom
 open "/Applications/zoom.us.app"
 brew install --cask telegram
