@@ -85,6 +85,8 @@ brew install --cask transmit
 open "/Applications/transmit.app"
 brew install --cask nova
 open "/Applications/nova.app"
+brew install --cask kite
+open "/Applications/kite.app"
 brew install --cask fork
 open "/Applications/fork.app"
 
