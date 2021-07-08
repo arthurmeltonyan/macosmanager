@@ -129,7 +129,7 @@ brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
 echo "status is-interactive; and pyenv init --path | source" >> ~/.config/fish/config.fish
-echo "pyenv init - | source" >> ~/.config/fish/config.fish
+echo "status is-interactive; and pyenv init - | source" >> ~/.config/fish/config.fish
 set -Ux PYENV_ROOT $HOME/.pyenv
 set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 pyenv global 3.9.6
