@@ -120,13 +120,13 @@ git config --global user.email arthur.meltonyan@gmail.com
 
 
 brew install rustup
-export PATH="$HOME/.cargo/bin:$PATH"
+echo "export PATH="$HOME/.cargo/bin:$PATH"" >> ~/.zshrc
 
 
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-export PATH="$HOME/.pyenv/bin:$PATH"
+echo "export PATH="$HOME/.pyenv/bin:$PATH"" >> ~/.zshrc
 echo "eval "$(pyenv init -)"" >> ~/.zshrc
 echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
 pyenv global 3.9.6
