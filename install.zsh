@@ -1,5 +1,6 @@
-brew install starship
 touch ~/.zshrc
+brew install starship
+brew install antigen
 echo "eval "$(starship init zsh)"" >> ~/.zshrc
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
