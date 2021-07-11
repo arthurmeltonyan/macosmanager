@@ -122,15 +122,16 @@ git config --global user.email arthur.meltonyan@gmail.com
 brew install rustup
 set -Ux CARGO_ROOT $HOME/.cargo
 set -U fish_user_paths $CARGO_ROOT/bin $fish_user_paths
+export PATH="$HOME/.cargo/bin:$PATH"
 
 
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-echo "status is-interactive; and pyenv init --path | source" >> ~/.config/fish/config.fish
-echo "status is-interactive; and pyenv init - | source" >> ~/.config/fish/config.fish
-set -Ux PYENV_ROOT $HOME/.pyenv
-set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$HOME/.pyenv/bin:$PATH"
+echo "eval "$(pyenv init -)"" >> ~/.zshrc
+echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
 pyenv global 3.9.6
 
 
