@@ -24,7 +24,6 @@ brew install lsd
 brew install lftp
 brew install trash
 brew install rename
-set -Ux LANG en_US.UTF-8
 
 
 brew install tor
