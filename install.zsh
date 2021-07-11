@@ -1,7 +1,9 @@
 touch ~/.zshrc
 brew install starship
-brew install antigen
 echo "eval "$(starship init zsh)"" >> ~/.zshrc
+brew install antigen
+echo "antigen bundle zsh-users/zsh-autosuggestions" >> ~/.zshrc
+echo "antigen bundle zsh-users/zsh-syntax-highlighting" >> ~/.zshrc
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 touch ~/.hushlogin
