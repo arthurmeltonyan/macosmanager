@@ -32,69 +32,44 @@ brew install rename
 
 brew install tor
 brew install --cask tor-browser
-open "/Applications/tor browser.app"
 brew install --cask brave-browser
-open "/Applications/brave browser.app"
 brew install --cask google-chrome
-open "/Applications/google chrome.app"
 brew install --cask firefox
-open "/Applications/firefox.app"
 brew install --cask transmission
-open "/Applications/transmission.app"
 brew install --cask coscreen
-open "/Applications/coscreen.app"
 brew install --cask zoom
-open "/Applications/zoom.us.app"
 brew install --cask telegram
-open "/Applications/telegram.app"
 brew install --cask slack
-open "/Applications/slack.app"
 brew install --cask signal
-open "/Applications/signal.app"
 
 
 brew install --cask alfred
-open "/Applications/alfred.app"
 brew install --cask the-unarchiver
-open "/Applications/the unarchiver.app"
 brew install --cask cleanmymac
-open "/Applications/cleanmymac x.app"
 brew install --cask iterm2
-open "/Applications/iterm.app"
 brew install --cask osxfuse
 
 
 brew install --cask figma
-open "/Applications/figma.app"
 brew install --cask iina
-open "/Applications/iina.app"
 #brew install --cask spotify
-#open "/Applications/spotify.app"
 brew install ffmpeg
 brew install youtube-dl
 
 
 brew install --cask texpad
-open "/Applications/texpad.app"
 brew install --cask mactex-no-gui
 
 
 brew install --cask paw
-open "/Applications/paw.app"
 brew install --cask tableplus
-open "/Applications/tableplus.app"
 brew install --cask transmit
-open "/Applications/transmit.app"
 brew install --cask nova
-open "/Applications/nova.app"
 brew install --cask kite
-open "/Applications/kite.app"
 brew install --cask fork
-open "/Applications/fork.app"
 
 
 brew install --cask docker
-open "/Applications/docker.app"
 brew install docker
 brew install minikube
 brew install helm
