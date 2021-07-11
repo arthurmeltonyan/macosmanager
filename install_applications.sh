@@ -128,7 +128,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$HOME/.pyenv/bin:$PATH"
 echo "eval "$(pyenv init -)"" >> ~/.zshrc
 echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
