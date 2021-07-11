@@ -1,6 +1,6 @@
 brew install starship
-touch ~/.config/fish/config.fish
-echo "starship init fish | source" >> ~/.config/fish/config.fish
+touch ~/.zshrc
+echo "eval "$(starship init zsh)"" >> ~/.zshrc
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 set fish_greeting
