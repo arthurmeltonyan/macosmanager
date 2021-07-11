@@ -3,7 +3,6 @@ touch ~/.zshrc
 echo "eval "$(starship init zsh)"" >> ~/.zshrc
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
-set fish_greeting
 touch ~/.hushlogin
 
 
