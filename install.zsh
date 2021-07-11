@@ -103,7 +103,7 @@ brew install rustup
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-echo "export PATH="$HOME/.cargo/bin:$HOME/.pyenv/bin:$PATH"" >> ~/.zshrc
+echo "export PATH="$HOME/Library/Python/3.9/bin:$HOME/.cargo/bin:$HOME/.pyenv/bin:$PATH"" >> ~/.zshrc
 echo "eval "$(pyenv init -)"" >> ~/.zshrc
 echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
 pyenv global 3.9.6
