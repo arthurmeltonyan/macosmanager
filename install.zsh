@@ -98,12 +98,16 @@ git config --global user.email arthur.meltonyan@gmail.com
 
 
 brew install rustup
+echo "CARGO_HOME="$HOME/.cargo"" >> ~/.zshrc
+echo "RUSTUP_HOME="$HOME/.rustup"" >> ~/.zshrc
+echo "export PATH="$CARGO_HOME/bin:$PATH"" >> ~/.zshrc
 
 
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-echo "export PATH="$HOME/Library/Python/3.9/bin:$HOME/.cargo/bin:$HOME/.pyenv/bin:$PATH"" >> ~/.zshrc
+echo "PYENV_HOME=$HOME/.pyenv" >> ~/.zshrc
+echo "export PATH="$PYENV_HOME/bin:$PATH"" >> ~/.zshrc
 echo "eval "$(pyenv init -)"" >> ~/.zshrc
 echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
 pyenv global 3.9.6
