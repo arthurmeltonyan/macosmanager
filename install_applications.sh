@@ -120,8 +120,6 @@ git config --global user.email arthur.meltonyan@gmail.com
 
 
 brew install rustup
-set -Ux CARGO_ROOT $HOME/.cargo
-set -U fish_user_paths $CARGO_ROOT/bin $fish_user_paths
 export PATH="$HOME/.cargo/bin:$PATH"
 
 
