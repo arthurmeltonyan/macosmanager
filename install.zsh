@@ -91,10 +91,7 @@ git config --global user.name "Arthur Meltonyan"
 git config --global user.email arthur.meltonyan@gmail.com
 
 
-brew install rustup
-echo "CARGO_HOME="$HOME/.cargo"" >> ~/.zshrc
-echo "RUSTUP_HOME="$HOME/.rustup"" >> ~/.zshrc
-echo "export PATH="$CARGO_HOME/bin:$PATH"" >> ~/.zshrc
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
 brew install pyenv
