@@ -97,10 +97,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-echo "PYENV_HOME="$HOME/.pyenv"" >> ~/.zshrc
-echo "export PATH="$PYENV_HOME/bin:$PATH"" >> ~/.zshrc
-echo "eval "$(pyenv init -)"" >> ~/.zshrc
-echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
 pyenv global 3.9.6
 
 
