@@ -100,7 +100,7 @@ echo "export PATH="$CARGO_HOME/bin:$PATH"" >> ~/.zshrc
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.9.6
-echo "PYENV_HOME=$HOME/.pyenv" >> ~/.zshrc
+echo "PYENV_HOME="$HOME/.pyenv"" >> ~/.zshrc
 echo "export PATH="$PYENV_HOME/bin:$PATH"" >> ~/.zshrc
 echo "eval "$(pyenv init -)"" >> ~/.zshrc
 echo "eval "$(pyenv virtualenv-init -)"" >> ~/.zshrc
