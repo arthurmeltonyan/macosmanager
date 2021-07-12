@@ -85,12 +85,6 @@ brew install docker-machine-driver-hyperkit
 
 brew install gh
 brew install git
-echo "__pycache__" >> ~/.gitignore_global
-echo ".Desktop.ini" >> ~/.gitignore_global
-echo ".DS_Store" >> ~/.gitignore_global
-echo ".Trashes" >> ~/.gitignore_global
-echo "*.pyc" >> ~/.gitignore_global
-echo ".git" >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 git config --global init.defaultBranch main
 git config --global user.name "Arthur Meltonyan"
