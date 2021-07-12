@@ -1,4 +1,5 @@
 touch ~/.zshrc
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install starship
 echo "eval "$(starship init zsh)"" >> ~/.zshrc
 brew install zsh-autosuggestions
