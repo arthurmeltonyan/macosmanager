@@ -92,7 +92,9 @@ git config --global user.email arthur.meltonyan@gmail.com
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
-curl https://pyenv.run | bash
+brew install pyenv
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 pyenv install 3.9.6
 pyenv global 3.9.6
 
