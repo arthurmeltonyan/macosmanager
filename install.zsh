@@ -5,7 +5,7 @@ echo "eval "$(starship init zsh)"" >> ~/.zshrc
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
+brew install --cask font-fira-code-nerd-font
 touch ~/.hushlogin
 
 
@@ -51,7 +51,6 @@ brew install --cask osxfuse
 
 brew install --cask figma
 brew install --cask iina
-#brew install --cask spotify
 brew install ffmpeg
 brew install youtube-dl
 
